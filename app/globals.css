@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* Screenshot-aligned palette — no additional hues */
+  /* Screenshot-aligned palette; no additional hues */
   --color-hookd-navy: #0f172a;
   --color-hookd-rose: #d9899c;
-  /* Darker rose: quotes & emphasis on white / grey — better contrast than brand rose */
+  /* Darker rose: quotes & emphasis on white / grey; better contrast than brand rose */
   --color-hookd-rose-strong: #8b3650;
   /* Light rose for text on navy card */
   --color-hookd-rose-on-dark: #f5d0d8;

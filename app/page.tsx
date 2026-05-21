@@ -23,7 +23,7 @@ const caseSpotlights = [
     brandSubtitle: "9 million organic views",
     lines: [
       "Legendary plates were invisible past the neighborhood scroll until hooks led with craving, not coupons.",
-      "Short-form ladders rewrote saves into compound reach — nine million organic views without buying oxygen.",
+      "Short-form ladders rewrote saves into compound reach: nine million organic views without buying oxygen.",
       "Proof lives in the queue outside now: curiosity engineered to fork toward reservations, not one-hit vanity.",
     ],
   },
@@ -34,7 +34,7 @@ const caseSpotlights = [
     brandSubtitle: "Sharper funnel, same media budget",
     lines: [
       "Premium positioning drowned in sameness until proof-led clips and tighter headline symmetry stopped cold exits.",
-      "Paid paths were rebuilt around hesitation-aware sequencing — fewer clicks thrown away after the first frame.",
+      "Paid paths were rebuilt around hesitation-aware sequencing; fewer clicks thrown away after the first frame.",
       "Pipeline climbed double digits in ninety days because psychology showed up between click and calendar.",
     ],
   },
@@ -59,7 +59,7 @@ export default function Home() {
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-hookd-body">
               We made you come to this site, didn&apos;t we? Let&apos;s point that psychology at
-              leads that actually cash out — not vibes.
+              leads that actually cash out, not vibes.
             </p>
             <div className="mt-10">
               <BrandBookingLink wide>Make me money</BrandBookingLink>
@@ -119,7 +119,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services — matches brand reference */}
+      {/* Services: matches brand reference */}
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-24">
         <div className="flex max-w-3xl flex-col gap-4">
           <div className="flex items-center gap-3">
@@ -151,10 +151,10 @@ export default function Home() {
               Content Creation
             </h3>
             <p className="mt-4 font-sans text-base font-semibold italic leading-snug text-hookd-rose-strong">
-              &ldquo;Pattern interrupts aren&apos;t a trend — they&apos;re the law.&rdquo;
+              &ldquo;Pattern interrupts aren&apos;t a trend; they&apos;re the law.&rdquo;
             </p>
             <p className="mt-6 flex-1 text-base leading-relaxed text-hookd-body">
-              Full scripting through upload — hooks engineered for second zero so the algorithm and
+              Full scripting through upload, hooks engineered for second zero so the algorithm and
               the amygdala both lean in.
             </p>
             <span className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-hookd-navy transition-colors duration-300 group-hover/card:text-hookd-rose-strong">
@@ -165,7 +165,7 @@ export default function Home() {
             </span>
           </Link>
 
-          {/* Featured Paid Ads — full-card link so hover matches side cards */}
+          {/* Featured Paid Ads: full-card link so hover matches side cards */}
           <Link
             href="/services/paid-ads"
             className="group/card relative flex h-full flex-col rounded-[1.75rem] bg-hookd-navy p-8 text-hookd-bg shadow-[var(--shadow-hookd-card)] ring-2 ring-hookd-navy/25 transition-[transform,box-shadow,ring-color] duration-300 ease-out will-change-transform motion-safe:hover:-translate-y-2 motion-safe:hover:shadow-[0_32px_64px_-12px_rgba(15,23,42,0.55)] motion-safe:hover:ring-hookd-rose/55 motion-safe:hover:ring-offset-2 motion-safe:hover:ring-offset-hookd-bg motion-reduce:hover:translate-y-0"
@@ -178,7 +178,7 @@ export default function Home() {
               &ldquo;Small budget. Big-category flex.&rdquo;
             </p>
             <p className="mt-6 flex-1 text-base leading-relaxed text-white/92">
-              Meta + Google setups where creative carries the funnel — engineered for local and
+              Meta + Google setups where creative carries the funnel, engineered for local and
               home-service buyers who ghost generic agencies.
             </p>
             <span className="mt-8 inline-flex w-fit rounded-full border border-hookd-bg px-6 py-3 text-center text-[11px] font-bold uppercase tracking-[0.22em] text-hookd-bg transition-all duration-300 group-hover/card:bg-hookd-bg/18 group-hover/card:shadow-[0_10px_28px_-6px_rgba(248,249,250,0.35)]">
@@ -200,7 +200,7 @@ export default function Home() {
               &ldquo;Your leads cool off in five minutes. We stop that.&rdquo;
             </p>
             <p className="mt-6 flex-1 text-base leading-relaxed text-hookd-body">
-              Dedicated outbound pros + optional CRM choreography so speed-to-contact becomes a moat — not chaos.
+              Dedicated outbound pros + optional CRM choreography so speed-to-contact becomes a moat, not chaos.
             </p>
             <span className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-hookd-navy transition-colors duration-300 group-hover/card:text-hookd-rose-strong">
               Explore
@@ -211,7 +211,7 @@ export default function Home() {
           </Link>
         </div>
 
-        {/* Hookd AI — light banner + rose rail (distinct from navy Audit workspace) */}
+        {/* Hookd AI: light banner + rose rail (distinct from navy Audit workspace) */}
         <div className="relative mt-12 overflow-hidden rounded-2xl border border-hookd-border bg-gradient-to-br from-hookd-bg via-hookd-muted/40 to-hookd-bg shadow-[var(--shadow-hookd-soft)] ring-1 ring-hookd-border/80">
           <div
             className="pointer-events-none absolute -right-24 top-1/2 h-56 w-56 -translate-y-1/2 rounded-full bg-hookd-icon-bg blur-3xl"
@@ -252,7 +252,7 @@ export default function Home() {
                   <span className="text-hookd-rose-strong">Ask Hookd AI.</span>
                 </p>
                 <p className="text-sm leading-relaxed text-hookd-body sm:text-[0.9375rem]">
-                  Quick steer on paid vs content vs closers — then jump into audits or booking when
+                  Quick steer on paid vs content vs closers; then jump into audits or booking when
                   you&apos;re ready.
                 </p>
               </div>
@@ -287,7 +287,7 @@ export default function Home() {
         <AuditToolSection />
       </section>
 
-      {/* Case spotlight — staggered cards (left Vasco, right Ivygro) */}
+      {/* Case spotlight: staggered cards (left Vasco, right Ivygro) */}
       <section className="relative isolate overflow-hidden border-y border-hookd-border bg-hookd-bg px-4 py-20 sm:px-6 lg:py-28">
         <div
           className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_90%_55%_at_0%_20%,rgba(217,137,156,0.11),transparent_52%),radial-gradient(ellipse_80%_45%_at_100%_75%,rgba(15,23,42,0.05),transparent_48%),linear-gradient(180deg,var(--color-hookd-muted)_0%,transparent_38%,transparent_62%,rgba(248,249,250,0.65)_100%)]"
@@ -305,7 +305,7 @@ export default function Home() {
               Brands that stopped whispering into busy feeds.
             </h2>
             <p className="max-w-xl text-base leading-relaxed text-hookd-body lg:text-lg">
-              Two snapshots — organic ignition on the left, paid psychology tightening the funnel on the right.
+              Two snapshots: organic ignition on the left, paid psychology tightening the funnel on the right.
             </p>
           </div>
 
@@ -403,7 +403,7 @@ export default function Home() {
             </p>
             <p className="mt-4 text-base leading-relaxed text-hookd-body">
               Door hangers returned 2× before we ported behavioral science where content moves
-              faster than mail slots. Channels changed — incentives stayed irrational.
+              faster than mail slots. Channels changed; incentives stayed irrational.
             </p>
             <div className="mt-10">
               <BrandBookingLink wide>Make me money</BrandBookingLink>
@@ -415,7 +415,7 @@ export default function Home() {
             </p>
             <ul className="mt-4 space-y-3">
               <li>Home services + Chicagoland real estate stay our bread and butter.</li>
-              <li>Organic feeds and paid funnels overlap — excuses about silos don&apos;t survive here.</li>
+              <li>Organic feeds and paid funnels overlap; excuses about silos don&apos;t survive here.</li>
               <li>We reject &ldquo;spend louder&rdquo; as a strategy when psychology can outperform it.</li>
             </ul>
           </aside>
