@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Screenshot-aligned palette — no additional hues */
+  --color-hookd-navy: #0f172a;
+  --color-hookd-rose: #d9899c;
+  /* Darker rose: quotes & emphasis on white / grey — better contrast than brand rose */
+  --color-hookd-rose-strong: #8b3650;
+  /* Light rose for text on navy card */
+  --color-hookd-rose-on-dark: #f5d0d8;
+  --color-hookd-muted: #f8f9fa;
+  --color-hookd-bg: #ffffff;
+  /* Body copy: one step darker than marketing pink-grey for readability */
+  --color-hookd-body: #374151;
+  --color-hookd-border: rgba(15, 23, 42, 0.08);
+  --color-hookd-icon-bg: rgba(217, 137, 156, 0.14);
+
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  /* `font-serif` utility = heading face (historical class name; stack is sans) */
+  --font-serif: var(--font-heading), "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-hookd-soft: 0 1px 3px rgba(15, 23, 42, 0.06);
+  --shadow-hookd-card: 0 14px 40px -14px rgba(15, 23, 42, 0.1);
+  --shadow-hookd-elevated: 0 22px 56px -18px rgba(15, 23, 42, 0.14);
+  --shadow-hookd-case-hover: 0 32px 72px -22px rgba(15, 23, 42, 0.2);
+}
+
+*,
+*::before,
+*::after {
+  border-color: var(--color-hookd-border);
+}
+
+body {
+  background: var(--color-hookd-bg);
+  color: var(--color-hookd-body);
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::marker {
+  content: "";
+}
+
+/* Hero brain: gentle float + slow drift (smoother than full spin on photographic art) */
+@keyframes hookd-brain-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  33% {
+    transform: translateY(-6px) rotate(1.5deg);
+  }
+  66% {
+    transform: translateY(4px) rotate(-1deg);
+  }
+}
+
+@keyframes hookd-brain-glow {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.04);
+  }
+}
+
+.brain-motion {
+  animation: hookd-brain-float 9s ease-in-out infinite;
+}
+
+@keyframes hookd-logo-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.hookd-logo-marquee-track {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  gap: 3rem;
+  animation: hookd-logo-marquee 115s linear infinite;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brain-motion,
+  .brain-glow-pulse {
+    animation: none;
+  }
+
+  .hookd-logo-marquee-track {
+    animation: none;
+  }
+}
