@@ -25,7 +25,7 @@ export default function PaidAdsPage() {
         eyebrow="Service · Paid Ads"
         title={
           <>
-            You don&apos;t need a $50,000 ad budget.{" "}
+            You don&apos;t need a $50,000 Ad budget.{" "}
             <span className="font-sans font-semibold italic text-hookd-rose-strong">
               You need better creative.
             </span>
